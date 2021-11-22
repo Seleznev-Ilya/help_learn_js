@@ -1,4 +1,4 @@
-const { toUnicode } = require("punycode");
+// const { toUnicode } = require("punycode");
 
 let sub = document.querySelector(".sub");
 
@@ -15,24 +15,24 @@ sub.addEventListener("click", function () {
   //TODO:  https://learn.javascript.ru/ui (непосредственно тема)
 
   /* <div> */ let div = document.createElement("div"); // TODO:
-                div.classList.add("pop_up");
+  div.classList.add("pop_up");
 
-        /* <div> */ let divWithText = document.createElement("div");
-                    divWithText.classList.add("pop_up_text");
+  /* <div> */ let divWithText = document.createElement("div");
+  divWithText.classList.add("pop_up_text");
 
-                /* <p1> */ let p1 = document.createElement("p");
-                            p1.classList.add("pop_up_text-p");
-                            p1.innerText = `Ваше имя: ${a}`;
+  /* <p1> */ let p1 = document.createElement("p");
+  p1.classList.add("pop_up_text-p");
+  p1.innerText = `Ваше имя: ${a}`;
 
-                /* </p1> */ divWithText.append(p1);
+  /* </p1> */ divWithText.append(p1);
 
-                /* <p2> */ let p2 = document.createElement("p");
-                            p2.classList.add("pop_up_text-p");
-                            p2.innerText = `Ваш текст: ${b} `;
+  /* <p2> */ let p2 = document.createElement("p");
+  p2.classList.add("pop_up_text-p");
+  p2.innerText = `Ваш текст: ${b} `;
 
-                /* </p2> */ divWithText.append(p2);
+  /* </p2> */ divWithText.append(p2);
 
-        /* </div> */ div.append(divWithText);
+  /* </div> */ div.append(divWithText);
 
   /* </div> */ document.body.append(div);
 });
