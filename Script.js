@@ -1,6 +1,6 @@
 let sub = document.querySelector(".sub");
 
-text1.value = "Петя"; // как добавить свойсво инпутов (содержимого)
+text1.value = "Вася"; // как добавить свойсво инпутов (содержимого)
 textarea1.value = "Тут много описания";
 
 sub.addEventListener("click", function () {
