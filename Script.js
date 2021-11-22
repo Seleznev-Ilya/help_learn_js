@@ -1,4 +1,3 @@
-// test
 let sub = document.querySelector(".sub");
 
 text1.value = "Петя"; // как добавить свойсво инпутов (содержимого)
