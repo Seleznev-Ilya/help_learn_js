@@ -1,0 +1,29 @@
+.divA {
+    border: 1px solid gray;
+}
+.div1 {
+    background-color: #fdd;
+}
+.div2 {
+    background-color: #ddf;
+}
+/* .ХУЙ::after{
+    content: 'ХУЙ';
+} */
+.pop_up{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.616);
+}
+.pop_up_text{
+    background-color: white;
+    border-radius: 10px;
+    height: 200px;
+    width: 200px;
+    position: absolute;
+    top: calc(50% -  100px);
+    left: calc(50% -  100px);
+}
